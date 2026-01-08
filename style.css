@@ -21,6 +21,21 @@ body {
 
 
 
+.sidebar {
+  width: 247px;
+  background: #04044a;
+  padding: 20px;
+  margin-bottom: 5px;
+  
+}
+
+.sidebar .line {
+  color: white;
+  margin-bottom: 15px;
+  padding: 8px;
+  cursor: pointer;
+}
+
 
 .container {
   display: flex;
@@ -107,7 +122,7 @@ body {
 }
 
 
-#footercard {
+.footercard {
   margin-top: 10px;
   background-color: #04044a;
   color: white;
