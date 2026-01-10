@@ -68,13 +68,13 @@ body {
 }
 
 #News_Text {
-  display: inline-block;   /* makes the box fit content */
+  display: inline-block;   
   background-color: #04044a;
   color: white;
-  padding: 10px 20px;      /* spacing inside the box */
-  border-radius: 10px;     /* optional rounded corners */
+  padding: 10px 20px;      
+  border-radius: 10px;     
   margin-bottom: 20px;
-  font-size: 24px;         /* adjust font size as needed */
+  font-size: 24px;         
 }
 
 #newsimage{
@@ -84,6 +84,13 @@ width: 200px;
   padding-left: 5px;
   padding-top: 5px;
 
+}
+.News_Section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; 
+  margin-bottom: 20px;
+padding-bottom: 5px;
 }
 
 
@@ -180,7 +187,7 @@ width: 200px;
 .cards {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap; /* responsive */
+  flex-wrap: wrap; 
   margin-bottom: 20px;
 }
 
