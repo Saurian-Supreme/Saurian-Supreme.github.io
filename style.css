@@ -168,7 +168,11 @@ padding-bottom: 5px;
   align-items: center;        
   gap: 10px;                 
   width: 200px;  
-  
+  position: absolute;
+  top: 70px;
+  left: 210px;
+  z-index: 10;
+
   height: 50px;             
   background: darkblue;
   color: #6f86ff;
