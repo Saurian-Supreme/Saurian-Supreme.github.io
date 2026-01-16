@@ -400,8 +400,8 @@ width: 200px;
   color: #0a0a3c;
 }
 
-.card p {
-  font-size: 14px;
+.card h1 {
+  font-size: 20px;
   color: #1a1a4f;
   text-align: center;
 }
